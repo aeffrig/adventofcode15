@@ -95,6 +95,8 @@ object DayOfCode7 {
 
     println(mm)
 
+    vals += ("b" -> 3176)
+
     (1 to 1000).toList foreach { _ =>
       vals.iterator.toList.foreach {
         t => interpret(t._1, t._2)
